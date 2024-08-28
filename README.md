@@ -2,11 +2,11 @@
 My guide and documentation on learning Programming languages.
 
 # Programming language Roadmap.
-| S.N. | Programming Languages | Status |
-|-----:|-----------------------|--------|
-|  1.  | Rust                  |        |
-|  2.  | C++                   |        |
-|  3.  | Python                |        |   
+| S.N. | Programming Languages | Status | Difficulty |
+|-----:|-----------------------|---------------|------------|
+|  1.  | Rust                  |Beginner       |
+|  2.  | C++                   |Intermediate   |
+|  3.  | Python                |Intermediate   |   
 
 
 
