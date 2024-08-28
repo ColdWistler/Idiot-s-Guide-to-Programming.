@@ -1,2 +1,5 @@
 # Idiot-s-Guide-to-Programming.
-A guide and documentation on learning Programming languages.
+My guide and documentation on learning Programming languages.
+
+# Programming language Roadmap.
+i. Rust(Beginner)
