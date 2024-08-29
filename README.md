@@ -4,11 +4,8 @@ This repository contains the list of programming languages I learned and the fil
 A back up repository for these files.
 
 # Programming language Roadmap.
-| S.N. | Programming Languages | Status | Difficulty |
-|-----:|-----------------------|---------------|------------|
-|  1.  | Rust                  |Beginner       |Hard|
-|  2.  | C++                   |Intermediate   |Hard|
-|  3.  | Python                |Intermediate   |Easy|  
-
-
-
+| S.N. | Programming Languages | Status | Difficulty |Guide Links|
+|-----:|-----------------------|---------------|------------|---------|
+|  1.  | Rust                  |Beginner       |Hard|https://doc.rust-lang.org/book/|
+|  2.  | C++                   |Intermediate   |Hard|https://cplusplus.com/doc/tutorial/|
+|  3.  | Python                |Intermediate   |Easy|https://wiki.python.org/moin/BeginnersGuide| 
