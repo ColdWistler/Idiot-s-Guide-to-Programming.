@@ -11,4 +11,5 @@ A back up repository for these files.
 |  3.  | Python                |Intermediate   |Easy|https://wiki.python.org/moin/BeginnersGuide| 
 
 # Projects:
-Calculator(CLI)
+Calculator(CLI) 
+{Python}
