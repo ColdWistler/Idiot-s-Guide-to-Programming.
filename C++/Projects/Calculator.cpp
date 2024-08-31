@@ -34,6 +34,17 @@ void multiplication(){
     cout << "Product = " << prod << endl;
 }
 
+void division(){
+    int x;
+    int y;
+    cout << "Enter Number: ";
+    cin >> x;
+    cout << "Enter Second Number: ";
+    cin >> y;
+    int div = x / y;
+    cout << "Division = " << div << endl;
+}
+
 int main(){
     int opt;
     cout << "Enter Option: ";
@@ -44,5 +55,7 @@ int main(){
         subtraction();
     }else if (opt == 3){
         multiplication();
+    }else if (opt == 4){
+        division();
     }
 }
