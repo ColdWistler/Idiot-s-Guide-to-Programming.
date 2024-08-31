@@ -45,6 +45,17 @@ void division(){
     cout << "Division = " << div << endl;
 }
 
+void remainder(){
+    int x;
+    int y;
+    cout << "Enter Number: ";
+    cin >> x;
+    cout << "Enter Second Number: ";
+    cin >> y;
+    int rem = x % y;
+    cout << "Remainder = " << rem << endl;
+}
+
 int main(){
     int opt;
     cout << "Enter Option: ";
@@ -57,5 +68,7 @@ int main(){
         multiplication();
     }else if (opt == 4){
         division();
+    }else if (opt == 5){
+        remainder();
     }
 }
