@@ -23,6 +23,16 @@ void subtraction(){
     cout << "Subtraction = " << sub << endl;
 }
 
+void multiplication(){
+    int x;
+    int y;
+    cout << "Enter Number: ";
+    cin >> x;
+    cout << "Enter Second Number: ";
+    cin >> y;
+    int prod = x * y;
+    cout << "Product = " << prod << endl;
+}
 
 int main(){
     int opt;
@@ -32,5 +42,7 @@ int main(){
         addition();
     }else if (opt == 2) {
         subtraction();
+    }else if (opt == 3){
+        multiplication();
     }
 }
