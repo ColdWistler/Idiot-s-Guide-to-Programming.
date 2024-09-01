@@ -1,9 +1,12 @@
+use std::io;
+
 fn main() {
     println!("Hello, world!");
     mutability();
     parameters(10, 20);
     controlstatements();
     loops();
+    input();
 }
 
 // Mutability Mut syntax:
@@ -55,4 +58,14 @@ fn loops() {
     for i in 1..10 {
         println!("{i} Loops. ");
     }
+}
+
+fn input(){
+    println!("Enter a number: ");
+    let mut inp = String::new();
+    io::stdin()
+        .read_line(&mut inp)
+        .expect("Failed to read line");
+
+    println!("You entered: {}", inp);
 }
