@@ -15,3 +15,9 @@ Calculator(CLI)
 {Python}
 
 # Commands to run the code.
+1. C++ code
+   g++ -o {output file name} {filename.cpp}
+2. Python Code.
+   python3 filename.py
+
+ 
