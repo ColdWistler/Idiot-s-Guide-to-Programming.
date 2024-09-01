@@ -17,10 +17,10 @@ Calculator(CLI)
 # Commands to run the code.
 1. C++ code
 
-```bash $ g++ -o {output file name} {filename.cpp} ```
+```$ g++ -o {output file name} {filename.cpp} ```
 
 2. Python Code.
 
-```bash $ python3 filename.py ```
+```$ python3 filename.py ```
 
  
