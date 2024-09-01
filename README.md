@@ -13,3 +13,5 @@ A back up repository for these files.
 # Projects:
 Calculator(CLI) 
 {Python}
+
+#Commands to run the code.
