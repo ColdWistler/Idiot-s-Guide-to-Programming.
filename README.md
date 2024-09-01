@@ -27,3 +27,5 @@ Calculator(CLI)
 
 ```$ cargo build```
 ```$ cargo run```
+
+more on cargo : https://doc.rust-lang.org/cargo/
