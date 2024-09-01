@@ -23,4 +23,7 @@ Calculator(CLI)
 
 ```$ python3 filename.py ```
 
- 
+3. Rust [Cargo].
+
+```$ cargo build```
+```$ cargo run```
