@@ -26,6 +26,7 @@ Calculator(CLI)
 3. Rust [Cargo].
 
 ```$ cargo build```
+
 ```$ cargo run```
 
 more on cargo : https://doc.rust-lang.org/cargo/
