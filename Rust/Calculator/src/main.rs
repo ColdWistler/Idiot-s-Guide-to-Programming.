@@ -6,6 +6,9 @@ fn main() {
     }else if opt == 2{
         subtraction();
     }
+    else if opt == 3{
+        multiplication();
+    }
 } 
 
 fn addition() {
@@ -22,4 +25,12 @@ fn subtraction() {
     
     let sub = x - y;
     println!("Difference = {}",sub);
+}
+
+fn multiplication() {
+    let x = 10;
+    let y = 20;
+
+    let prod = x * y;
+    println!("Product = {}",prod);
 }
