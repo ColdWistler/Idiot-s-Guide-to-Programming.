@@ -9,6 +9,10 @@ fn main() {
         multiplication();
     }else if opt == 4{
         division();
+    }else if opt == 5{
+        remainder();
+    }else{
+        print!("Invalid Option:");
     }
 } 
 
@@ -42,4 +46,12 @@ fn division(){
 
     let div = x / y;
     println!("Answer = {}",div);
+}
+
+fn remainder(){
+    let x = 20;
+    let y = 15;
+
+    let rem = x % y;
+    println!("Remainder: {}",rem);
 }
