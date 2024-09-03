@@ -12,8 +12,12 @@ A back up repository for these files.
 
 # Projects:
 Calculator(CLI) 
+
 {Python}
+
 {C++}
+
+{Rust}
 
 # Commands to run the code.
 1. C++ code
