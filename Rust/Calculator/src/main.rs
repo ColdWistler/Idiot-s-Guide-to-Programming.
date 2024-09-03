@@ -1,6 +1,15 @@
+use std::io;
+
 fn main() {
     println!("Calculator:");
-    let opt = 2;
+
+    println!("Enter an option: ");
+    let mut stdopt = String::new();
+    io::stdin()
+        .read_line(&mut stdopt)
+        .expect("Failed to read line");
+    let opt: i64 = stdopt.trim().parse().expect("Input not an integer.");
+
     if opt == 1{
         addition();
     }else if opt == 2{
