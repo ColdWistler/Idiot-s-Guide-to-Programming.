@@ -5,9 +5,10 @@ fn main() {
         addition();
     }else if opt == 2{
         subtraction();
-    }
-    else if opt == 3{
+    }else if opt == 3{
         multiplication();
+    }else if opt == 4{
+        division();
     }
 } 
 
@@ -33,4 +34,12 @@ fn multiplication() {
 
     let prod = x * y;
     println!("Product = {}",prod);
+}
+
+fn division(){
+    let x = 20;
+    let y = 10;
+
+    let div = x / y;
+    println!("Answer = {}",div);
 }
