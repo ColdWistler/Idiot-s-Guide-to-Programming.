@@ -23,6 +23,9 @@ fn main() {
     }else{
         print!("Invalid Option:");
     }
+    let mut num = String::new();
+    let mut num1 = String::new();
+    println!("Enter Number: ");
 } 
 
 fn addition() {
