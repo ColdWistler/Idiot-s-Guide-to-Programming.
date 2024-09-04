@@ -2,6 +2,15 @@ use std::io;
 
 fn main() {
     println!("Calculator:");
+    println!("Options:");
+    let multiline_string = r#"
+    1. Addition
+    2. Subtraction
+    3. Multiplication
+    4. Division
+    5. Remainder
+        "#;
+    println!("{}", multiline_string);
 
     println!("Enter an option: ");
     let mut stdopt = String::new();
@@ -15,14 +24,14 @@ fn main() {
     io::stdin()
         .read_line(&mut numinp)
         .expect("Failed to read line");
-    let num: i32 = numinp.trim().parse().expect("Input not an integer.");
+    let num: i64 = numinp.trim().parse().expect("Input not an integer.");
 
     println!("Enter second number");
     let mut num1inp = String::new();
     io::stdin()
         .read_line(&mut num1inp)
         .expect("Failed to read Line");
-    let num1: i32 = num1inp.trim().parse().expect("Input not an integer.");
+    let num1: i64 = num1inp.trim().parse().expect("Input not an integer.");
 
     if opt == 1 {
         addition(num, num1);
@@ -39,27 +48,27 @@ fn main() {
     }
 }
 
-fn addition(num: i32, num1: i32) {
+fn addition(num: i64, num1: i64) {
     let sum = num + num1;
     println!("Sum = {}", sum);
 }
 
-fn subtraction(num: i32, num1: i32) {
+fn subtraction(num: i64, num1: i64) {
     let sub = num - num1;
     println!("Difference = {}", sub);
 }
 
-fn multiplication(num: i32, num1: i32) {
+fn multiplication(num: i64, num1: i64) {
     let prod = num * num1;
     println!("Product = {}", prod);
 }
 
-fn division(num: i32, num1: i32) {
+fn division(num: i64, num1: i64) {
     let div = num / num1;
     println!("Answer = {}", div);
 }
 
-fn remainder(num: i32, num1: i32) {
+fn remainder(num: i64, num1: i64) {
     let rem = num % num1;
     println!("Remainder: {}", rem);
 }
