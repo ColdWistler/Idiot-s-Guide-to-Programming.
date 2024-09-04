@@ -37,11 +37,9 @@ fn main() {
     let num1: i64 = stdopt.trim().parse().expect("Input not an integer."); 
 } 
 
-fn addition() {
-   let x = 20;
-   let y = 30;
+fn addition(num: i64,num1: i64) {
 
-   let sum = x + y;
+   let sum = num + num1;
    println!("Sum = {}",sum);
 }
 
