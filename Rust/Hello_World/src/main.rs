@@ -6,6 +6,7 @@ fn main() {
         String Used to output multiple lines.
         "#;
     println!("Hello, world!");
+    println!("{}",multiline_string);
     mutability();
     parameters(10, 20);
     controlstatements();
