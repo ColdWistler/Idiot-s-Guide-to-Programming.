@@ -1,6 +1,10 @@
 use std::io;
 
 fn main() {
+    let multiline_string = r#"
+    This is a multiline 
+        String Used to output multiple lines.
+        "#;
     println!("Hello, world!");
     mutability();
     parameters(10, 20);
