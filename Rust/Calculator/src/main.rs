@@ -25,7 +25,12 @@ fn main() {
     }
     let mut num = String::new();
     let mut num1 = String::new();
+
     println!("Enter Number: ");
+    io::stdin()
+        .read_line(&mut num)
+        .expect("Failed to read line");
+    let opt: i64 = num.trim().parse().expect("Input not an integer.");
 } 
 
 fn addition() {
