@@ -23,14 +23,18 @@ fn main() {
     }else{
         print!("Invalid Option:");
     }
-    let mut num = String::new();
-    let mut num1 = String::new();
 
     println!("Enter Number: ");
     io::stdin()
-        .read_line(&mut num)
+        .read_line(&mut stdopt)
         .expect("Failed to read line");
-    let opt: i64 = num.trim().parse().expect("Input not an integer.");
+    let num: i64 = stdopt.trim().parse().expect("Input not an integer.");
+
+    println!("Enter second number");
+    io::stdin()
+        .read_line(&mut stdopt)
+        .expect("Failed to read Line");
+    let num1: i64 = stdopt.trim().parse().expect("Input not an integer."); 
 } 
 
 fn addition() {
