@@ -10,20 +10,6 @@ fn main() {
         .expect("Failed to read line");
     let opt: i64 = stdopt.trim().parse().expect("Input not an integer.");
 
-    if opt == 1{
-        addition();
-    }else if opt == 2{
-        subtraction();
-    }else if opt == 3{
-        multiplication();
-    }else if opt == 4{
-        division();
-    }else if opt == 5{
-        remainder();
-    }else{
-        print!("Invalid Option:");
-    }
-
     println!("Enter Number: ");
     io::stdin()
         .read_line(&mut stdopt)
@@ -34,21 +20,34 @@ fn main() {
     io::stdin()
         .read_line(&mut stdopt)
         .expect("Failed to read Line");
-    let num1: i64 = stdopt.trim().parse().expect("Input not an integer."); 
-} 
+    let num1: i64 = stdopt.trim().parse().expect("Input not an integer.");
 
-fn addition(num: i64,num1: i64) {
+    if opt == 0 {
+        addition(num, num1);
+    } else if opt == 1 {
+        subtraction(num, num1);
+    } else if opt == 2 {
+        multiplication(num, num1);
+    } else if opt == 3 {
+        division(num, num1);
+    } else if opt == 4 {
+        remainder(num, num1);
+    } else {
+        print!("Invalid Option:");
+    }
+}
 
-   let sum = num + num1;
-   println!("Sum = {}",sum);
+fn addition(num: i64, num1: i64) {
+    let sum = num + num1;
+    println!("Sum = {}", sum);
 }
 
 fn subtraction() {
     let x = 20;
     let y = 30;
-    
+
     let sub = x - y;
-    println!("Difference = {}",sub);
+    println!("Difference = {}", sub);
 }
 
 fn multiplication() {
@@ -56,21 +55,21 @@ fn multiplication() {
     let y = 20;
 
     let prod = x * y;
-    println!("Product = {}",prod);
+    println!("Product = {}", prod);
 }
 
-fn division(){
+fn division() {
     let x = 20;
     let y = 10;
 
     let div = x / y;
-    println!("Answer = {}",div);
+    println!("Answer = {}", div);
 }
 
-fn remainder(){
+fn remainder() {
     let x = 20;
     let y = 15;
 
     let rem = x % y;
-    println!("Remainder: {}",rem);
+    println!("Remainder: {}", rem);
 }
