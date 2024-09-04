@@ -11,16 +11,18 @@ fn main() {
     let opt: i64 = stdopt.trim().parse().expect("Input not an integer.");
 
     println!("Enter Number: ");
+    let mut numinp = String::new();
     io::stdin()
-        .read_line(&mut stdopt)
+        .read_line(&mut numinp)
         .expect("Failed to read line");
-    let num: i32 = stdopt.trim().parse().expect("Input not an integer.");
+    let num: i32 = numinp.trim().parse().expect("Input not an integer.");
 
     println!("Enter second number");
+    let mut num1inp = String::new();
     io::stdin()
-        .read_line(&mut stdopt)
+        .read_line(&mut num1inp)
         .expect("Failed to read Line");
-    let num1: i32 = stdopt.trim().parse().expect("Input not an integer.");
+    let num1: i32 = num1inp.trim().parse().expect("Input not an integer.");
 
     if opt == 1 {
         addition(num, num1);
