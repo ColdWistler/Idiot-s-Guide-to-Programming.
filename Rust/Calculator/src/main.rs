@@ -24,7 +24,7 @@ fn main() {
     io::stdin()
         .read_line(&mut numinp)
         .expect("Failed to read line");
-    let num: i64 = numinp.trim().parse().expect("Input not an integer.");
+    let num: i64 = numinp.trim().parse().expect("Input not an integer.");//Changes string to integer.
 
     println!("Enter second number");
     let mut num1inp = String::new();
