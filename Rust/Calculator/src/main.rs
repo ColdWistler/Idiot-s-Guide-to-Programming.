@@ -31,7 +31,7 @@ fn main() {
     io::stdin()
         .read_line(&mut num1inp)
         .expect("Failed to read Line");
-    let num1: i64 = num1inp.trim().parse().expect("Input not an integer.");
+    let num1: i64 = num1inp.trim().parse().expect("Input not an integer.");//Changes string to integer.
 
     if opt == 1 {
         addition(num, num1);
