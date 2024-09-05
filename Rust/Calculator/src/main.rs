@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    println!("");
+    println!("--------------------------------------------");
     println!("                Calculator                  ");
     println!("============================================");
     println!("Options:");
