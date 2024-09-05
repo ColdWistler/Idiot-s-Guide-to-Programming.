@@ -1,7 +1,9 @@
 use std::io;
 
 fn main() {
-    println!("Calculator:");
+    println!("");
+    println!("                Calculator                  ");
+    println!("============================================");
     println!("Options:");
     let multiline_string = r#"
     1. Addition
