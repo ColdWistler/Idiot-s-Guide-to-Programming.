@@ -48,6 +48,7 @@ fn main() {
     }
 }
 
+//Modules for each action.
 fn addition(num: i64, num1: i64) {
     let sum = num + num1;
     println!("Sum = {}", sum);
