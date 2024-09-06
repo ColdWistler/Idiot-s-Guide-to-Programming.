@@ -89,6 +89,9 @@ void loops(){
     }
 
 }
+
+//Arrays:
+
 // Program runs on the main function.
 int main() {
     HelloWorld();
