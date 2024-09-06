@@ -95,6 +95,7 @@ void arrays(){
 string arrays[3] = {"Hamster","Cat","Dog"};//Creates array
 // Array_name[number of items.] = {"Items","Items1","Items2"};
 cout << arrays[2];//print array_name[item position.];
+arrays[2] = "Mouse";// Changing the value of the item at position 2.
 }
 
 // Program runs on the main function.
