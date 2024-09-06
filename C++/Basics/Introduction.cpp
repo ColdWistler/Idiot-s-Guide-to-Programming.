@@ -92,7 +92,7 @@ void loops(){
 
 //Arrays:
 void arrays(){
-
+string arrays[3] = {"Hamster","Cat","Dog"};
 }
 
 // Program runs on the main function.
