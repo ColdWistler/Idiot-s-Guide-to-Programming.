@@ -93,6 +93,7 @@ void loops(){
 //Arrays:
 void arrays(){
 string arrays[3] = {"Hamster","Cat","Dog"};
+cout << arrays[2];
 }
 
 // Program runs on the main function.
