@@ -91,6 +91,9 @@ void loops(){
 }
 
 //Arrays:
+void arrays(){
+
+}
 
 // Program runs on the main function.
 int main() {
