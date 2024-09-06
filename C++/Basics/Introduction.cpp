@@ -94,7 +94,7 @@ void loops(){
 void arrays(){
 string arrays[3] = {"Hamster","Cat","Dog"};//Creates array
 // Array_name[number of items.] = {"Items","Items1","Items2"};
-cout << arrays[2];
+cout << arrays[2];//print array_name[item position.];
 }
 
 // Program runs on the main function.
