@@ -41,7 +41,7 @@ def loops():
         i = i + 1
 
 def arrays():
-    cars[]={"Ford","Ferarri","Lockheed Martin"}
+    cars[]={"Ford","Ferarri","Lockheed Martin"}#Making an Array
     x = cars[2]
     print(x)
 
