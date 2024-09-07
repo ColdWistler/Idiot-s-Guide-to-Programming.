@@ -46,6 +46,8 @@ def arrays():
     #Note: Positions star with 0 hence 3 items position goes 0,1,2
     print(x)
     x = len(cars)#Shows the length.
+    #Adding elements to the array.
+    cars.append("Toyota")
     
 
 #Output
