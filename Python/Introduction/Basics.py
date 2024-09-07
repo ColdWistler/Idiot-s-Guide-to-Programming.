@@ -45,7 +45,7 @@ def arrays():
     x = cars[2]#[] Is the position of the item in the array.
     #Note: Positions star with 0 hence 3 items position goes 0,1,2
     print(x)
-    x = len(cars)
+    x = len(cars)#Shows the length.
     
 
 #Output
