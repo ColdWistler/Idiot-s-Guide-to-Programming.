@@ -40,6 +40,11 @@ def loops():
         print("While Loop: ", i)
         i = i + 1
 
+def arrays():
+    cars[]={"Ford","Ferarri","Lockheed Martin"}
+    x = cars[2]
+    print(x)
+
 #Output
 conditions()
 operators()
