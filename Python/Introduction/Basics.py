@@ -42,7 +42,7 @@ def loops():
 
 def arrays():
     cars[]={"Ford","Ferarri","Lockheed Martin"}#Making an Array
-    x = cars[2]
+    x = cars[2]#[] Is the position of the item in the array.
     print(x)
 
 #Output
