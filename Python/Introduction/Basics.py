@@ -48,7 +48,8 @@ def arrays():
     x = len(cars)#Shows the length.
     #Adding elements to the array.
     cars.append("Toyota")
-    
+    #To remove use pop
+    cars.pop(1)
 
 #Output
 conditions()
