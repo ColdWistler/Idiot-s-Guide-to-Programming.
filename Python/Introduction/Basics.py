@@ -49,3 +49,4 @@ def arrays():
 conditions()
 operators()
 loops()
+arrays()
