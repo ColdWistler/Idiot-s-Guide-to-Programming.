@@ -50,6 +50,8 @@ def arrays():
     cars.append("Toyota")
     #To remove use pop
     cars.pop(1)
+    #Remove can also be used
+    cars.remove("Lockheed Martin")
 
 #Output
 conditions()
