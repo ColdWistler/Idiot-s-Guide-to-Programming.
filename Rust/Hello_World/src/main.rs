@@ -78,3 +78,4 @@ fn input(){
 //Ownership:
 
 let a = String::from("Hello");
+let a1 = a;
