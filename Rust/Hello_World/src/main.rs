@@ -83,3 +83,8 @@ fn Ownership(){
     println!("{a1}, World!");
 }
 
+fn Cloning(){
+    let s1 = String::from("Hello_world!");
+    
+}
+
