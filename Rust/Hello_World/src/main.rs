@@ -77,9 +77,9 @@ fn input(){
 
 //Ownership:
 fn Ownership(){
-    
-}
-let a = String::from("Hello");
-let a1 = a;
+    let a = String::from("Hello");
+    let a1 = a;
 
-println!("{a1}, World!");
+    println!("{a1}, World!");
+}
+
