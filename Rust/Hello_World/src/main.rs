@@ -74,3 +74,6 @@ fn input(){
 
     println!("You entered: {}", inp);
 }
+
+//Ownership:
+
