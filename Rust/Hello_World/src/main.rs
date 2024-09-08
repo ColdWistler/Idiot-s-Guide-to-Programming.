@@ -79,3 +79,5 @@ fn input(){
 
 let a = String::from("Hello");
 let a1 = a;
+
+println!("{a1}, World!");
