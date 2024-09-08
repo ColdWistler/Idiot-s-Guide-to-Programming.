@@ -85,6 +85,7 @@ fn Ownership(){
 
 fn Cloning(){
     let s1 = String::from("Hello_world!");
+    let s2 = s1.clone();
     
 }
 
