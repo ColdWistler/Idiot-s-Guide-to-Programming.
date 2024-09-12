@@ -8,3 +8,6 @@ def factorial():
     factorial = 1 * factorial
 
   print(factorial)
+
+#Outputs
+factorial()
