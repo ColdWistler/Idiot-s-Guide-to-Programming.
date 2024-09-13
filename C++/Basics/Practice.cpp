@@ -7,4 +7,6 @@ int main(){
   cout << "Enter a number";
   cin >> number;
   int factorial = 1;
+
+  //factorial
 }
