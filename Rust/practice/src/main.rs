@@ -16,7 +16,7 @@ fn factorial() {
     //Fails here
     let i = 1;
     let mut factorial = 1;
-    // Goes on an infinite loop
+    // Goes on an infinite loop Date: 14th september
     while i <= num {
         factorial = factorial * i;
     }
