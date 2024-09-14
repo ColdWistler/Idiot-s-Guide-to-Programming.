@@ -13,7 +13,7 @@ fn factorial() {
     let num: i64 = inp.trim().parse().expect("Input not an integer.");
 
     println!("Num = {}", num);
-
+    //Fails here
     let i = 1;
     let mut factorial = 1;
 
