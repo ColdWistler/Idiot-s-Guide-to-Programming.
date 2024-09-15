@@ -11,6 +11,7 @@ def factorial():
 
 def evenodd():
   x = input()
+  for i in range():
   
 
 #Outputs
