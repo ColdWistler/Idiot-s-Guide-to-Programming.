@@ -10,7 +10,8 @@ def factorial():
   print(factorial)
 
 def evenodd():
-  x = input()  
+  x = input()
+  if x % 2 = 0:
 
 #Outputs
 factorial()
