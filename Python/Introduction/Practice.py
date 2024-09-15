@@ -18,3 +18,4 @@ def evenodd():
 
 #Outputs
 factorial()
+evenodd()
