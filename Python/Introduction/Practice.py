@@ -12,6 +12,7 @@ def factorial():
 def evenodd():
   x = input()
   if x % 2 = 0:
+    print("The number is even.")
 
 #Outputs
 factorial()
