@@ -14,3 +14,7 @@ int main(){
   }
   cout << factorial;
 }
+
+int evenodd(){
+  
+}
