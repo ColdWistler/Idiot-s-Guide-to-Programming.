@@ -24,6 +24,6 @@ int evenodd(){
     cout << "The number is even. ";
   }
   else {
-    
+    cout << "The number is odd.";
   };
 }
