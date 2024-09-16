@@ -21,7 +21,7 @@ int evenodd(){
   cin >> number;
 
   if(){
-    
+    cout << "The number is even. ";
   }
   else {
     
