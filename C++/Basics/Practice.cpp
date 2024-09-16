@@ -19,4 +19,8 @@ int evenodd(){
   int number;
   cout << "Enter a number: ";
   cin >> number;
+
+  if(){
+    
+  }
 }
