@@ -16,5 +16,5 @@ int main(){
 }
 
 int evenodd(){
-  
+  int number;
 }
