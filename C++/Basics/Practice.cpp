@@ -28,3 +28,7 @@ int evenodd(){
   };
   return 0;
 }
+
+int primecomposite() {
+  
+}
