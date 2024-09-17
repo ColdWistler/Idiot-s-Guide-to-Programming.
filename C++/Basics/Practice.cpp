@@ -35,4 +35,7 @@ int primecomposite() {
 
     cout << "Enter a number: ";
     cin >> num;
+    for(int i = 0; i <= num; i++){
+      ans = num / i;
+    }
 }
