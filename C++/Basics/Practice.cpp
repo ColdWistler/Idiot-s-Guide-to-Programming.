@@ -30,5 +30,6 @@ int evenodd(){
 }
 
 int primecomposite() {
-  
+    int num;
+    int ans;
 }
