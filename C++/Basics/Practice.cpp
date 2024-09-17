@@ -41,5 +41,7 @@ int primecomposite() {
 
     if(ans > 2){
       cout << "The number is composite";
-    }else if(ans == 2)
+    }else if(ans == 2){
+      
+    }
 }
