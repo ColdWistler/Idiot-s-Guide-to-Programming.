@@ -44,4 +44,6 @@ int primecomposite() {
     }else if(ans == 2){
       cout << "The number is Prime";
     }
+
+  return 0;
 }
