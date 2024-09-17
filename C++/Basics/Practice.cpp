@@ -38,4 +38,8 @@ int primecomposite() {
     for(int i = 0; i <= num; i++){
       ans = num / i;
     }
+
+    if(ans > 2){
+      cout << "The number is composite";
+    }
 }
