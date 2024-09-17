@@ -32,4 +32,7 @@ int evenodd(){
 int primecomposite() {
     int num;
     int ans;
+
+    cout << "Enter a number: ";
+    cin >> num;
 }
