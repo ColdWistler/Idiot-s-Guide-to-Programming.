@@ -22,3 +22,8 @@ fn factorial() {
     }
     println!("Factorial: {}", factorial);
 }
+
+fn primeodd() {
+    println!("Enter a number:");
+    let mut inp = String::new();
+}
