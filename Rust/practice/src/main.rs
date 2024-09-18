@@ -38,7 +38,5 @@ fn primeodd() {
     let mut i = 1;
     while i <= num {
             
-    }
-    
-        
+    }       
 }
