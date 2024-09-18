@@ -26,4 +26,8 @@ fn factorial() {
 fn primeodd() {
     println!("Enter a number:");
     let mut inp = String::new();
+
+    io::stdin()
+        .read_line(&mut inp)
+        .expect("Failed to read line");
 }
