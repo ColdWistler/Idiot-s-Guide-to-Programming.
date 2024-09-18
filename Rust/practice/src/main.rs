@@ -30,4 +30,6 @@ fn primeodd() {
     io::stdin()
         .read_line(&mut inp)
         .expect("Failed to read line");
+
+     let num: i64 = inp.trim().parse().expect("Input not an integer.");
 }
