@@ -31,10 +31,13 @@ fn primeodd() {
         .read_line(&mut inp)
         .expect("Failed to read line");
 
-     let num: i64 = inp.trim().parse().expect("Input not an integer.");
+    let num: i64 = inp.trim().parse().expect("Input not an integer.");
+
+    let mut ans;
+    
     let mut i = 1;
     while i <= num {
-        
+            
     }
     
         
