@@ -1,4 +1,4 @@
-luse std::io;
+eluse std::io;
 
 fn main() {
     factorial();
@@ -43,6 +43,9 @@ fn primeodd() {
     if ans == 2{
         println!("The number is prime.");
     }
+    else if {
+      println!();  
+    };
         
 
 }
