@@ -44,7 +44,7 @@ fn primeodd() {
         println!("The number is prime.");
     }
     else if {
-      println!();  
+      println!("The number is composite");  
     };
         
 
