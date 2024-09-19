@@ -41,6 +41,6 @@ fn primeodd() {
     }  
     
     if ans == 2:
-        println!("");
+        println!("The number is prime.");
 
 }
