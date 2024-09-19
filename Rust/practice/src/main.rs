@@ -40,7 +40,9 @@ fn primeodd() {
         ans = num/i;    
     }  
     
-    if ans == 2:
+    if ans == 2{
+        
+    }
         
 
 }
