@@ -39,5 +39,8 @@ fn primeodd() {
     while i <= num {
         ans = num/i;    
     }  
+    
+    if ans == 2:
+        println!("");
 
 }
