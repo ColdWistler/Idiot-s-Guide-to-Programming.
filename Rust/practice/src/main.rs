@@ -43,7 +43,7 @@ fn primeodd() {
     if ans == 2{
         println!("The number is prime.");
     }
-    else if {
+    else if ans > 2{
       println!("The number is composite");  
     };
         
