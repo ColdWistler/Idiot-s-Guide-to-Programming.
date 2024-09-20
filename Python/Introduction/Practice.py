@@ -16,6 +16,9 @@ def evenodd():
   else 
     print("The number is odd.")
 
+def primecomp():
+    
+
 #Outputs
 factorial()
 evenodd()
