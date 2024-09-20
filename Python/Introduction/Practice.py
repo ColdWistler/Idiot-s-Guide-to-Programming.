@@ -32,3 +32,4 @@ def primecomp():
 #Outputs
 factorial()
 evenodd()
+primecomp()
