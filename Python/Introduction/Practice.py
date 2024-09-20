@@ -17,7 +17,8 @@ def evenodd():
     print("The number is odd.")
 
 def primecomp():
-    
+  x = input("Enter a number: ")
+  for i in range():
 
 #Outputs
 factorial()
