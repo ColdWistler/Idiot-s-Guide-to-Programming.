@@ -1,4 +1,4 @@
-luse std::io;
+use std::io;
 
 fn main() {
     factorial();
