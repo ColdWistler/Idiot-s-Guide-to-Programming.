@@ -2,6 +2,7 @@ eluse std::io;
 
 fn main() {
     factorial();
+    fn primeodd();
 }
 
 fn factorial() {
