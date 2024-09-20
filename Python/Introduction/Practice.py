@@ -19,6 +19,15 @@ def evenodd():
 def primecomp():
   x = input("Enter a number: ")
   for i in range():
+    if num % i = 0:
+      count = count + 1
+
+  if count == 2:
+    print("The number is prime.")
+  else if count > 2:
+    print("The number is composite.")
+
+
 
 #Outputs
 factorial()
