@@ -17,7 +17,7 @@ def evenodd():
     print("The number is odd.")
 
 def primecomp():
-  x = input("Enter a number: ")
+  num = input("Enter a number: ")
   for i in range(1,int(num)+1):
     if num % i = 0:
       count = count + 1
