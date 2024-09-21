@@ -42,7 +42,7 @@ int factorial() {
   count << "Enter a number: ";
   cin >> num;
 
-  for(){
+  for(int i;i<num;i++){
     ans = count * i;
   }
 }
