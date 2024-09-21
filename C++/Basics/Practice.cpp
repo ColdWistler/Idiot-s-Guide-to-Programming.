@@ -37,7 +37,9 @@ int primecomposite() {
   return 0;
 }
 
-int factorial() {}
+int factorial() {
+  int num;
+}
 
 int main(){
   int number;
