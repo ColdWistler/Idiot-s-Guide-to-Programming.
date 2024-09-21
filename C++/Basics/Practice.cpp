@@ -40,6 +40,7 @@ int primecomposite() {
 int factorial() {
   int num;
   count << "Enter a number: ";
+  cin >> num;
 }
 
 int main(){
