@@ -37,6 +37,8 @@ int primecomposite() {
   return 0;
 }
 
+int factorial() {}
+
 int main(){
   int number;
   cout << "Enter a number";
