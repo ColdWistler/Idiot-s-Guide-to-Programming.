@@ -43,7 +43,7 @@ int factorial() {
   cin >> num;
 
   for(){
-    
+    ans = count * i;
   }
 }
 
