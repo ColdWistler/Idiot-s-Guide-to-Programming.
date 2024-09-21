@@ -41,6 +41,10 @@ int factorial() {
   int num;
   count << "Enter a number: ";
   cin >> num;
+
+  for(){
+    
+  }
 }
 
 int main(){
