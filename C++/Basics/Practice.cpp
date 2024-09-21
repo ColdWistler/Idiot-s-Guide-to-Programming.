@@ -39,6 +39,7 @@ int primecomposite() {
 
 int factorial() {
   int num;
+  count << "Enter a number: ";
 }
 
 int main(){
