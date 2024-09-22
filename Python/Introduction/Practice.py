@@ -30,6 +30,10 @@ def primecomp():
 def reverse():
   num = 1234
   reversed_num = 0
+
+  while num != 0:
+    digit = num % 10
+  
   
 
 #Outputs
