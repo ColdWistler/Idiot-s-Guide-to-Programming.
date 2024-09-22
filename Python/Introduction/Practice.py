@@ -27,7 +27,8 @@ def primecomp():
   else if count > 2:
     print("The number is composite.")
 
-
+def reverse():
+  
 
 #Outputs
 factorial()
