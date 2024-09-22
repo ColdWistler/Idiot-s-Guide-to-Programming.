@@ -28,6 +28,7 @@ def primecomp():
     print("The number is composite.")
 
 def reverse():
+  num = 1234
   
 
 #Outputs
