@@ -35,7 +35,7 @@ def reverse():
     digit = num % 10
     reversed_num = reversed_num * 10 + digit
     num //= 10
-  
+    print("Reversed Number: " + str(reversed_num))
   
 
 #Outputs
