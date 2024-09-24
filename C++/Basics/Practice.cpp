@@ -52,6 +52,8 @@ int reverse(){
   int num = 1234;
   int reversed_num = 0;
   int count;
+
+  for(){}
 }
 
 int main(){
