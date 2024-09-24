@@ -53,7 +53,7 @@ int reverse(){
   int reversed_num = 0;
   int count;
 
-  for(int i =0;i++){}
+ 
 }
 
 int main(){
