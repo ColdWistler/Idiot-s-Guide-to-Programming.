@@ -51,7 +51,7 @@ int factorial() {
 int reverse(){
   int num = 1234;
   int reversed_num = 0;
-  int ;
+  int count;
 }
 
 int main(){
