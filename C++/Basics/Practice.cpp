@@ -49,7 +49,7 @@ int factorial() {
 }
 
 int reverse(){
-  
+  int = 1234;
 }
 
 int main(){
