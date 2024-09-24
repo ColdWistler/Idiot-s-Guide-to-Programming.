@@ -48,7 +48,9 @@ int factorial() {
   }
 }
 
-int reverse()
+int reverse(){
+  
+}
 
 int main(){
   int number;
