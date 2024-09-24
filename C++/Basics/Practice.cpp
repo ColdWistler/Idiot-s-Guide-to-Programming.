@@ -50,7 +50,7 @@ int factorial() {
 
 int reverse(){
   int num = 1234;
-  int ;
+  int reversed_num = 0;
   int ;
 }
 
