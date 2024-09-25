@@ -54,7 +54,7 @@ int reverse(){
   int count;
 
   while (num != 0){
-    
+    count = num % 10
   }
  
 }
