@@ -63,7 +63,7 @@ int main(){
   int factorial = 1;
 
   //factorial
-  {
+  
     factorial = i * factorial;
   }
   cout << factorial;
