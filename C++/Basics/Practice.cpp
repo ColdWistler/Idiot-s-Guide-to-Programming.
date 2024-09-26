@@ -71,7 +71,7 @@ int main(){
   //factorial
   for(int i = 1; i<=number; i++){
     factorial = i * factorial;
-  }
+  
   
   
 }
