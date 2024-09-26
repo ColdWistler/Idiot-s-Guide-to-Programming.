@@ -69,6 +69,6 @@ int main(){
   int factorial = 1;
 
   //factorial
-  for(int i = 1; i<=number; i++){
+
     
 }
