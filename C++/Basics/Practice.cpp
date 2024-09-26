@@ -58,6 +58,7 @@ int reverse(){
     reversed_num = reversed_num * 10 + count;
     num = num / 10;
   }
+  cout << "Reverse = " << reversed_num;
  
 }
 
