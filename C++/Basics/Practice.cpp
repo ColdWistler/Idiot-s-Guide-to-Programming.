@@ -63,4 +63,5 @@ int reverse(){
 }
 
 int main(){
+  evenodd();
 }
