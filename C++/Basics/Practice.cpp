@@ -66,5 +66,5 @@ int main(){
   evenodd();
   prime()
   factorial()
-  reverse
+  reverse()
 }
