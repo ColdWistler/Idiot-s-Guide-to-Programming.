@@ -64,7 +64,7 @@ int reverse(){
 
 int main(){
   evenodd();
-  primecomposite()
+  primecomposite();
   factorial()
   reverse()
 }
