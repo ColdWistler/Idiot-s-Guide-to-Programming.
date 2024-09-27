@@ -64,4 +64,5 @@ int reverse(){
 
 int main(){
   evenodd();
+  prime
 }
