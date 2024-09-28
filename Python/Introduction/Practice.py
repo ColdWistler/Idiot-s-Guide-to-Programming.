@@ -41,6 +41,8 @@ def reverse():
     x = input("Enter First Number: ")
     y = input("Enter Second Number: ")
     z = input("Enter Third Number: ")
+
+    if x > y: 
     
   
 
