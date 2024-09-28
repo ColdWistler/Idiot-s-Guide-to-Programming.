@@ -43,6 +43,7 @@ def reverse():
     z = input("Enter Third Number: ")
 
     if x > y: 
+      if x > z:
     
   
 
