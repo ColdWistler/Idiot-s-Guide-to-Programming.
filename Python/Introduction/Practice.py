@@ -38,6 +38,7 @@ def reverse():
     print("Reversed Number: " + str(reversed_num))
 
   def maximum():
+    x = input("Enter First Number: ")
     
   
 
