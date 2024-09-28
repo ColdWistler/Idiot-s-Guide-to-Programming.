@@ -37,7 +37,7 @@ def reverse():
     num //= 10
     print("Reversed Number: " + str(reversed_num))
 
-  def maximum(){
+  def maximum()
     
   
 
