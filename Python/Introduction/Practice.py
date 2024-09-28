@@ -36,7 +36,10 @@ def reverse():
     reversed_num = reversed_num * 10 + digit
     num //= 10
     print("Reversed Number: " + str(reversed_num))
-  
+
+  def maximum(){
+    
+  }
 
 #Outputs
 factorial()
