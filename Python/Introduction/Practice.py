@@ -47,7 +47,6 @@ def reverse():
         print()
       else
         print()
-    
   
 
 #Outputs
