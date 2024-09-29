@@ -45,6 +45,8 @@ def reverse():
     if x > y: 
       if x > z:
         print()
+      else
+        print()
     
   
 
