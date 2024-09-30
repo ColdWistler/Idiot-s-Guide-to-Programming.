@@ -51,7 +51,7 @@ def reverse():
       if y > z:
         print("The largest number is: ")
       else
-        print()
+        print("")
   
 
 #Outputs
