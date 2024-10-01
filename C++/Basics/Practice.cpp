@@ -62,6 +62,10 @@ int reverse(){
  
 }
 
+int max(){
+
+}
+
 int main(){
   evenodd();
   primecomposite();
