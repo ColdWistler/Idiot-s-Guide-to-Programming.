@@ -63,7 +63,7 @@ int reverse(){
 }
 
 int max(){
-
+  int num1;
 }
 
 int main(){
