@@ -69,6 +69,7 @@ int max(){
 
   cout << "";
   cin >> num1;
+  cout << "";
 }
 
 int main(){
