@@ -71,7 +71,7 @@ int max(){
   cin >> num1;
   cout << "Input Second Number: ";
   cin >> num2;
-  cout << "";
+  cout << "Input Third Number: ";
   cin >> num3;
 }
 
