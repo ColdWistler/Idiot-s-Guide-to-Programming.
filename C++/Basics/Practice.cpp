@@ -72,6 +72,7 @@ int max(){
   cout << "";
   cin >> num2;
   cout << "";
+  cin >>
 }
 
 int main(){
