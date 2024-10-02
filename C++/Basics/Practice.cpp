@@ -74,7 +74,7 @@ int max(){
   cout << "Input Third Number: ";
   cin >> num3;
 
-  if(){
+  if(num1>num2){
     
   }
 }
