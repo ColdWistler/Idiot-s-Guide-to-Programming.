@@ -73,6 +73,10 @@ int max(){
   cin >> num2;
   cout << "Input Third Number: ";
   cin >> num3;
+
+  if(){
+    
+  }
 }
 
 int main(){
