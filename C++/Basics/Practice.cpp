@@ -78,7 +78,7 @@ int max(){
     if(num1>num3){
       cout << "First Number is  greatest.";
     }else{
-      cout << "";
+      cout << "Second number is greatest.";
     }
   }
 }
