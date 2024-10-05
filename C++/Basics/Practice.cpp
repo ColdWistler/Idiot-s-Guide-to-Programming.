@@ -80,7 +80,7 @@ int max(){
     }else{
       cout << "Second number is greatest.";
     }
-  }
+  }else{}
 }
 
 int main(){
