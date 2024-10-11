@@ -26,7 +26,7 @@ void subtraction(){
 void multiplication(){
     int x;
     int y;
-    cout << ""
+    cout << ""p;
     cout << "Enter Number: ";
     cin >> x;
     cout << "Enter Second Number: ";
