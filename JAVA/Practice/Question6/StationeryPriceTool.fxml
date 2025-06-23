@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<!--
+  This FXML file defines the user interface for the Stationery Price Tool application.
+  It uses a VBox as the root container to arrange elements vertically.
+  The controller for this FXML is specified using fx:controller attribute.
+-->
+<VBox alignment="CENTER" spacing="20.0" prefHeight="200.0" prefWidth="400.0"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="StationeryPriceToolController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <!-- HBox for selecting stationery item using ChoiceBox -->
+    <HBox alignment="CENTER" spacing="10.0">
+        <Label text="Select an Item:">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <!-- fx:id is used to reference this element in the controller -->
+        <ChoiceBox fx:id="itemChoiceBox" prefWidth="150.0"/>
+    </HBox>
+
+    <!-- Label to display the price -->
+    <Label fx:id="priceLabel" text="Price: Rs. --">
+        <font>
+            <Font name="System Bold" size="18.0"/>
+        </font>
+    </Label>
+
+    <!-- Button to show the price -->
+    <Button fx:id="showPriceButton" onAction="#handleShowPrice" text="Show Price">
+        <font>
+            <Font name="System Bold" size="16.0"/>
+        </font>
+        <!-- Basic styling for the button -->
+        <style>
+            -fx-background-color: #4682B4; /* SteelBlue */
+            -fx-text-fill: white;
+            -fx-border-radius: 5;
+            -fx-background-radius: 5;
+        </style>
+    </Button>
+</VBox>
