@@ -1,0 +1,5 @@
+Arustha, Veg
+BobTheBuilder, Non-Veg
+CharlieChaplin, Veg
+Davido, Non-Veg
+EveWallE, Non-Veg

@@ -1,0 +1,3 @@
+Alice, Attended
+Bob, Skipped
+Carol, Attended

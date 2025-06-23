@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="StationeryController"
+      spacing="10" alignment="CENTER" padding="20">
+
+    <ComboBox fx:id="comboBox" prefWidth="200"/>
+
+    <Button text="Show Price" onAction="#handleShowPrice"/>
+
+    <Label fx:id="priceLabel" text=""/>
+</VBox>
