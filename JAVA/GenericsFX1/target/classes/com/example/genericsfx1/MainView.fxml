@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="TOP_CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.genericsfx1.Controller"> <padding>
+    <Insets top="20" right="20" bottom="20" left="20"/>
+</padding>
+
+    <Label text="Generic Parcel Shelf Viewer" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Select Item Type:"/>
+        <ComboBox fx:id="itemTypeComboBox" promptText="Choose Type"/>
+        <Button text="Add Sample Item" onAction="#handleAddSampleItem"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Currently Selected Shelf:"/>
+        <ComboBox fx:id="shelfTypeComboBox" promptText="Select Shelf"/>
+    </HBox>
+
+    <Label text="Shelf Contents:" style="-fx-font-weight: bold;"/>
+    <ListView fx:id="shelfListView" VBox.vgrow="ALWAYS"/>
+
+    <Button text="Remove Selected Item" onAction="#handleRemoveItem"/>
+</VBox>
